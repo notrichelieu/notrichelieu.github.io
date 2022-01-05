@@ -4,12 +4,12 @@ Font will be Montserrat
 
 color scheme - 
 
-background : 
+background : #373F51
 
-buttons : 
+buttons : #BBDBB4
 
-text primary : 
+text primary : #FCF0CC
 
-text secondary : 
+text secondary : #4E598C
 
-accent : 
+accent : #DB2955
