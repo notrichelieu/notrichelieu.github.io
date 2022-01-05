@@ -1,7 +1,9 @@
 :root {
     --bg-color: #4D5E72;
     --txt-color: #F1E6C1;
+    --txt2-color: #3F6A8A;
 }
+
 
 body {
     font-family: Montserrat;
@@ -9,3 +11,17 @@ body {
     color: var(--txt-color);
 }
 
+header {
+    color: var(--txt2-color);
+}
+
+/*
+footer {
+
+}
+*/
+
+button {
+    background-color: #F2CC8C;
+    color: var(--txt2-color);
+}
