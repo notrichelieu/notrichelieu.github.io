@@ -1,6 +1,11 @@
+:root {
+    --bg-color: #4D5E72;
+    --txt-color: #F1E6C1;
+}
+
 body {
     font-family: Montserrat;
-    background-color: #4D5E72;
-    color: #F1E6C1;
+    background-color: var(--bg-color);
+    color: var(--txt-color);
 }
 
