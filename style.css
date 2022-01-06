@@ -6,6 +6,11 @@
     --bttn-color: #BBDBB4;
 }
 
+/*
+nav {
+
+}
+*/
 
 body {
     font-family: Montserrat;
@@ -19,6 +24,13 @@ header {
 
 /*
 footer {
+
+}
+*/
+
+/*
+.skills h3 {
+    border: 3px solid var(--acc-color);
 
 }
 */
