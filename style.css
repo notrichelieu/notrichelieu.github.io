@@ -1,3 +1,4 @@
+/* Establishes color variables */
 :root {
     --bg-color: #373F51;
     --txt-color: #FCF0CC;
@@ -6,17 +7,58 @@
     --bttn-color: #BBDBB4;
 }
 
-/*
-nav {
-
-}
-*/
+/* Sets up fonts and basic colors */
 
 body {
     font-family: Helvetica, sans-serif;
     background-color: var(--bg-color);
     color: var(--txt-color);
 }
+
+/* Creates div associations to grid */
+.nav {
+    grid-area: nav;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main-content {
+    grid-area: main;
+}
+
+.secondary-content {
+    grid-area: secondary;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+/* Defines grid container and layout of items in grid container */
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'nav repeat(5, header)'
+    'nav repeat(3, main) repeat(2, secondary)'
+    'nav repeat(3, main) repeat(2, secondary)'
+    'nav repeat(5, footer)';
+    grid-gap: 3%;    
+}
+
+/* tells all div elements to align text to center, TBD */
+
+.grid-container > div {
+    text-align: center;
+}
+
+/*
+nav {
+
+}
+*/
 
 header {
     color: var(--acc-color);
