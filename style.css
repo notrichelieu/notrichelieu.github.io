@@ -11,8 +11,8 @@
 
 body {
     font-family: Helvetica, sans-serif;
-    background-color: var(--bg-color);
-    color: var(--txt-color);
+    background-color: var(--bg-color);⌈
+    color: var(--txt-color)
 }
 
 /* Creates div associations to grid */
@@ -41,11 +41,11 @@ body {
 .grid-container {
     display: grid;
     grid-template-areas:
-    'nav repeat(5, header)'
-    'nav repeat(3, main) repeat(2, secondary)'
-    'nav repeat(3, main) repeat(2, secondary)'
-    'nav repeat(5, footer)';
-    grid-gap: 3%;    
+    'nav header header header header header'
+    'nav main main main secondary secondary'
+    'nav main main main secondary secondary'
+    'footer footer footer footer footer footer';
+    gap: 3%;    
 }
 
 /* tells all div elements to align text to center, TBD */
@@ -53,7 +53,6 @@ body {
 .grid-container > div {
     text-align: center;
 }
-
 /*
 nav {
 
