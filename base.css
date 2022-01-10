@@ -25,6 +25,8 @@ main-content > p {
     height: 100%;
     width: 100%;
     overflow-wrap: normal;
+    margin: 1%;
+    padding: 1%;
 }
 
 header {
