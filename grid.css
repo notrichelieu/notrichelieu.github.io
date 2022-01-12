@@ -1,29 +1,46 @@
 /* Defines grid container */
 
-/*
+
 .grid-container {
     display: grid;
+    grid-template-columns: 1fr repeat(2fr, 3) 1fr;
+    grid-template-areas: 
+    'header header header header header'
+    'nav primary primary primary secondary'
+    'nav primary primary primary secondary'
+    'nav primary primary primary secondary'
+    'footer footer footer footer footer';
+    width: 100vw;
+    height: 100vh;
+    grid-gap: 10px;
 }
 
-@media screen {
-    .nav {
 
-    }
-
-    .header {
-
-    }
-
-    .main-content {
-
-    }
-
-    .secondary-content {
-
-    }
-
-    .footer {
-        
-    }
+.nav {
+    grid-area: nav;
+    background-color: var(--acc-color);
+    border-radius: 24px;
 }
-*/
+
+.header {
+    grid-area: header;
+    
+}
+
+.main-content {
+    grid-area: primary;
+}
+
+.secondary-content {
+    grid-area: secondary;
+    background-color: white;
+}
+
+.secondary-content > img {
+    scale: 25%;
+}
+
+.footer {
+    grid-area: footer;
+}
+
