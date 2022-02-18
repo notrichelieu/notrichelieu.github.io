@@ -1,0 +1,1 @@
+A form is an HTML element that contains and organizes objects called the form controls which accept information from website users. Forms 
