@@ -1,1 +1,5 @@
-A form is an HTML element that contains and organizes objects called the form controls which accept information from website users. Forms 
+A form is an HTML element that contains and organizes objects called the form controls which accept information from website users. Forms are unable to process information on their own, but with the user of a script, either server or client side, forms can take user information and perform actions with and upon it. 
+
+<form></form> tells the program when a form is being input. You can have an infinite number of forms per page, but you cannot nest forms.
+
+Forms have a variety of attributes, including the methods get and post, and various other things that influence the user experience with the form 
