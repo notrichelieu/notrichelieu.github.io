@@ -1,0 +1,28 @@
+/* Establishes color variables */
+:root {
+    --bg-color: #373F51;
+    --txt-color: #FCF0CC;
+    --txt2-color: #4E598C;
+    --acc-color: #DB2955;
+    --bttn-color: #BBDBB4;
+}
+
+html {
+    background-color: var(--bg-color);
+}
+
+body {
+    color: var(--txt-color);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+
+ul > li {
+    display: inline;
+    padding: 0;
+}
