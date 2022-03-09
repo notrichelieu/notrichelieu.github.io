@@ -14,10 +14,12 @@ body {
     justify-content: space-evenly;
     width: 100vw;
     background-color: var(--acc-color);
+
 }
 
 .header {
-    
+    margin-top: 7vh;
+    margin-right: 70vw;
 }
 
 .main-content {
@@ -26,7 +28,6 @@ body {
     width: 90vw;
     min-height: 25vh;
     max-height:60vh;
-
 }
 
 .secondary-content {
