@@ -1,12 +1,5 @@
 /* font input */
-@font-face {
-    font-family: 'palm_canyon_drivetrial';
-    src: url('palmcanyondrive-trial-webfont.woff2') format('woff2'),
-         url('palmcanyondrive-trial-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
 
 :root {
     /* color vars */
@@ -18,7 +11,74 @@
 
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: firebrick;
+    
+}
+
 .callout {
-    font-face: 'palm_canyon_drivetrial';
-    color: var(--blushed-anger)
+    background-color: cadetblue;
+}
+
+.intro {
+    background-color: green;
+}
+
+.web {
+    background-color: coral;
+}
+
+.wait {
+    background-color: darkgoldenrod;
+}
+
+.side {
+    background-color: darkorchid;
+}
+
+.footer {
+    background-color: darkslateblue;
+}
+/* define lines for styling */
+.line-vert {
+    height: 50px;
+    width: 2px;
+    background-color: var(--blushed-anger);
+}
+
+.line-horiz {
+    height: 2px;
+    width: 50px;
+    background-color: var(--green-sky);
+}
+
+/* scroll animation #1 */
+@keyframes scroll-web {
+    from {
+        /* start at 90deg offset */
+    }
+    
+    to {
+        /* finish with text inline, change other text rotated */
+    }
+}
+
+/* scroll animation #2 */
+@keyframes scroll-wait {
+    
+}
+
+/* scroll animation #3 */
+@keyframes scroll-data {
+    
 }
