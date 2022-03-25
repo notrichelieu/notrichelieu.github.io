@@ -23,7 +23,6 @@ p {
 
 .nav {
     background-color: firebrick;
-    
 }
 
 .callout {
@@ -49,6 +48,7 @@ p {
 .footer {
     background-color: darkslateblue;
 }
+
 /* define lines for styling */
 .line-vert {
     height: 50px;
