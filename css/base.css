@@ -19,6 +19,6 @@
 }
 
 .callout {
-    font-family: 'palm_canyon_drivetrial';
+    font-face: 'palm_canyon_drivetrial';
     color: var(--blushed-anger)
 }
