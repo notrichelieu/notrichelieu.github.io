@@ -1,5 +1,5 @@
 /* font input */
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Work+Sans&display=swap');
 
 :root {
     /* color vars */
@@ -12,73 +12,61 @@
 }
 
 html, body {
+    font-family: "Work Sans", sans-serif;
     margin: 0;
     padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: "Abril Fatface", sans-serif;
+
 }
 
 p {
-    margin: 0;
-    padding: 0;
+
 }
 
-.nav {
-    background-color: firebrick;
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul > li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color:chocolate
 }
 
 .callout {
-    background-color: cadetblue;
+
 }
 
 .intro {
-    background-color: green;
+
 }
 
 .web {
-    background-color: coral;
+
 }
 
 .wait {
-    background-color: darkgoldenrod;
+
 }
 
 .side {
-    background-color: darkorchid;
+
 }
 
 .footer {
-    background-color: darkslateblue;
-}
 
-/* define lines for styling */
-.line-vert {
-    height: 50px;
-    width: 2px;
-    background-color: var(--blushed-anger);
-}
-
-.line-horiz {
-    height: 2px;
-    width: 50px;
-    background-color: var(--green-sky);
-}
-
-/* scroll animation #1 */
-@keyframes scroll-web {
-    from {
-        /* start at 90deg offset */
-    }
-    
-    to {
-        /* finish with text inline, change other text rotated */
-    }
-}
-
-/* scroll animation #2 */
-@keyframes scroll-wait {
-    
-}
-
-/* scroll animation #3 */
-@keyframes scroll-data {
-    
 }
