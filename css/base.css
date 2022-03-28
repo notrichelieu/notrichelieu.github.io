@@ -1,5 +1,4 @@
 /* font input */
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Work+Sans&display=swap');
 
 :root {
     /* color vars */
@@ -8,17 +7,22 @@
     --crystal-tangerine: #FACA66;
     --bounty-hunter: #F7A541;
     --blushed-anger: #F45D4C;
+    --text-color: #ffffff;
+    --bg-color: #2A2B2E;
 
 }
 
 html, body {
-    font-family: "Work Sans", sans-serif;
-    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+* {
     padding: 0;
+    margin: 0;
 }
 
 h1, h2, h3 {
-    font-family: "Abril Fatface", sans-serif;
 
 }
 
@@ -28,14 +32,10 @@ p {
 
 ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
 
 ul > li {
     display: inline;
-    padding: 0;
-    margin: 0;
 }
 
 a {
@@ -44,11 +44,38 @@ a {
 }
 
 a:hover {
-    color:chocolate
+    color: var(--green-sky)
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    padding: 0.5rem;
 }
 
 .callout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../assets/background-img.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
 
+}
+
+.callout > .text {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: auto;
+    padding-bottom: 15rem;
 }
 
 .intro {
