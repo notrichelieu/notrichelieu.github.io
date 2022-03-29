@@ -1,0 +1,21 @@
+#callout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+#callout > #subcallout {
+    margin: auto;
+    padding: auto;
+    padding-bottom: 15rem;
+}
+
+#leadership {
+
+}
+
+#learning {
+    
+}
