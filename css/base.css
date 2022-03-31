@@ -4,8 +4,8 @@
 :root {
     /* color vars */
     --button-color: # ;
-    --text-color: #e2e2e2;
-    --bg-color: #2b2b2b;
+    --text-color: #e0d6d6;
+    --bg-color: #131313;
 
 }
 
@@ -41,23 +41,22 @@ a {
 }
 
 a:hover {
-
+    text-decoration-line: underline;
 }
 
 /* styles to create navbar, main section, and footer */
 .nav {
-    position: fixed;
-    top: 0;
-    right: 12;
-}
-
-.main {
-    position: relative;
     display: flex;
     flex-direction: column;
-
+    align-items: flex-end;
+    padding: 0.5rem;
+    position: fixed;
+    right: 0;
 }
 
 .footer {
-    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
 }
