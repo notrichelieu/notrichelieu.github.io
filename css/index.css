@@ -10,20 +10,20 @@
     width: 100vw;
 }
 
-#lead::before {
-    color: black;
-    background-color: white;
+#lead {
+    background-color: var(--text-color);
+    color: var(--bg-color);
     height: 100vh;
     width: 50vw;
-    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+    
 }   
 
-#learn::before {
-    color: white;
-    background-color: black;
+#learn {
+    background-color: (--bg-color);
+    color: var(--text-color);
     height: 100vh;
     width: 50vw;
-    clip-path: polygon(100% 0, 0 0, 0 100%);
+    
 }
 
 #leadership {

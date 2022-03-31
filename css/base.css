@@ -1,5 +1,5 @@
 /* font input */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Fjalla-One&display=swap');
 
 :root {
     /* color vars */
@@ -16,7 +16,7 @@ html, body {
 }
 
 h1, h2, h3 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 /* gets rid of padding and margin by base, reseting browser default */
