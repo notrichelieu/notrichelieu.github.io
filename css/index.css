@@ -5,27 +5,42 @@
 
 #callout {
     display: flex;
-    position: relative;
     flex-direction: column;
     height: 100vh;
     width: 100vw;
     justify-content: center;
-    background-color: blue;
-    
 }
 
 #name {
-    background-color: burlywood;
+    font-size: 4rem;
+
 }
 
 #tag {
-    background-color: chartreuse;
+    font-size: 1.5rem;
+
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#sub {
+    display: flex;
 }
 
 #leadership {
-    background-color: coral;
+    height: 75vh;
+    width: 50vw;
 }
 
 #learning {
-    background-color: darkgoldenrod;
+    height: 75vh;
+    width: 50vw;
+}
+
+#continue {
+    height: 25vh;
+    width: 100vw;
 }
