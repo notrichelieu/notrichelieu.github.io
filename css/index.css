@@ -13,12 +13,12 @@
 
 #name {
     font-size: 4rem;
-
+    margin-left: 2%;
 }
 
 #tag {
     font-size: 1.5rem;
-
+    margin-left: 2%;
 }
 
 #main {
@@ -30,14 +30,20 @@
     display: flex;
 }
 
+#leadership > h1, #learning > h1 {
+    font-size: 2rem;
+}
+
 #leadership {
     height: 75vh;
     width: 50vw;
+    margin: 2%;
 }
 
 #learning {
     height: 75vh;
     width: 50vw;
+    margin: 2%;
 }
 
 #continue {
