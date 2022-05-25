@@ -1,3 +1,11 @@
+:root {
+    /* color vars */
+    --accent-color: #ff4c4c ;
+    --text-color: #000000;
+    --bg-color: #ffffff;
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,20 +13,36 @@
 
 #callout {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 100vh;
     width: 100vw;
-    justify-content: center;
+    background-color: var(--accent-color);
+    margin: 0;
+    padding: 0;
 }
 
-#name {
+#callout-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 50%;
+    height: 100%;
+    background-color: var(--bg-color);
+
+}
+
+#hello, #name {
     font-size: 4rem;
-    margin-left: 2%;
+    font-weight: bold;
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
-#tag {
-    font-size: 1.5rem;
-    margin-left: 2%;
+#titles {
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 #main {
@@ -30,23 +54,15 @@
     display: flex;
 }
 
-#leadership > h1, #learning > h1 {
+#leader, #learner, #communicator {
+    height: 25vh;
+    width: 100vw;
+    margin: 2%;
     font-size: 2rem;
-}
-
-#leadership {
-    height: 75vh;
-    width: 50vw;
-    margin: 2%;
-}
-
-#learning {
-    height: 75vh;
-    width: 50vw;
-    margin: 2%;
 }
 
 #continue {
     height: 25vh;
     width: 100vw;
+    margin: 2%;
 }
